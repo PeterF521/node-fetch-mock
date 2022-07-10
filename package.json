@@ -1,0 +1,30 @@
+{
+  "name": "node-fetch-mock",
+  "version": "1.0.0",
+  "description": "npm package to mock fetch calls on Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "nodemon lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterF521/node-fetch-mock.git"
+  },
+  "keywords": [
+    "node-fetch",
+    "mock"
+  ],
+  "peerDependencies": {
+    "node-fetch": "2 - 3"
+  },
+  "author": "PeterF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterF521/node-fetch-mock/issues"
+  },
+  "homepage": "https://github.com/PeterF521/node-fetch-mock#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
